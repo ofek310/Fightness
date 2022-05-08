@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_page"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/account" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="@string/aboutus" />
+        <item
+            android:id="@+id/nav_history"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/nav_terms"
+            android:title="@string/terms" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_ic"
+            android:title="@string/logout" />
+    </group>
+    <item android:title="@string/more_about">
+        <menu>
+            <item android:id="@+id/instagram_menu"
+                android:iconTint="@color/black"
+                android:icon="@drawable/instagram_icon50"
+                android:title="fightness_adam"/>
+            <item android:id="@+id/facebook_menu"
+                android:iconTint="@color/black"
+                android:icon="@drawable/facebook_icon50"
+                android:title="Adam Eli"/>
+            <item android:id="@+id/whatsapp_menu"
+                android:iconTint="@color/black"
+                android:icon="@drawable/whatsapp_icon50"
+                android:title="Whatsapp"/>
+        </menu>
+    </item>
+</menu>

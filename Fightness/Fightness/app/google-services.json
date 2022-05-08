@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345729007659",
+    "project_id": "fightness-93a50",
+    "storage_bucket": "fightness-93a50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345729007659:android:3ffc858cb468711aad6a6e",
+        "android_client_info": {
+          "package_name": "com.hit.fightness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345729007659-r0a0p9epdra96qoh6be6843d0h6arjep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX0HLeqF_cGDvnkrDKEOuaqmUeaEQrFvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345729007659-r0a0p9epdra96qoh6be6843d0h6arjep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

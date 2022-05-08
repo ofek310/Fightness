@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.aboutus.AboutUsFragment">
+
+    <ImageView
+        android:id="@+id/logo_login"
+        android:layout_width="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_fit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".15"/>
+    <TextView
+        android:id="@+id/start_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/logo_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="מי אנחנו? המותג פועל למעלה מ-3 שנים. דוגל באימונים פונקציונליים מגוונים ושיטות אימון ייחודיות אפקטיביות לקבלת תוצאות מהירות, אותה פיתח אדם אלי הבעלים והמאמן בעל תואר ראשון בחינוך גופני וניסיון של שנים בתחום הכושר."/>
+
+    <TextView
+        android:id="@+id/part_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/start_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text=" מה אנחנו מציעים? בשונה מסטודיו וחדרי כושר, אדם מגיע עד לבית הלקוח עם כל הציוד הנדרש לאימון ובכך מביא את הסטודיו עד אליך. הציוד מגוון וברמה הגבוהה ביותר. חווית אימון ייחודית המשלבת אימונים אינטנסיביים מבוקרים עם תוצאות מהירות."/>
+
+    <TextView
+        android:id="@+id/part_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/part_two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="יש אפשרות לרכוש חבילת אימונים איישים, זוגיים וגם קבוצות. סוגי האימונים מגוונים ומשולבים. כוח, אירובי, פונקציונלי, היט, קיקבוקס, עיצוב וחיטוב. החבילות כוללת המלצה לתפריט תזונה, ליווי אישי, שקילות ומדידות."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/part_three"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="נגמרו התירוצים, אז למה אתם מחכים?"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

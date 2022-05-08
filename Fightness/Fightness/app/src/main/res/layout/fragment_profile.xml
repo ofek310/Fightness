@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/logo_login"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_fit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".15"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        app:startIconDrawable="@drawable/ic_account_box_24"
+        android:layout_marginEnd="20dp"
+        app:startIconTint="@color/red"
+        android:hint="@string/name"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        app:startIconTint="@color/red"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/email"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        app:startIconTint="@color/red"
+        app:startIconDrawable="@drawable/ic_baseline_phone_android_24"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/phonenum"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="10"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_birthday"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        app:startIconTint="@color/red"
+        app:startIconDrawable="@drawable/ic_birthday"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/birthday"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        app:startIconTint="@color/red"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_height="50dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/spiner"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            app:startIconTint="@color/red"
+            android:layout_alignParentEnd="true"
+            app:startIconDrawable="@drawable/account_24"
+            android:layout_marginEnd="20dp"
+            android:hint="Gender"
+            android:theme="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="325dp"
+            android:layout_alignBaseline="@id/spiner"
+            android:layout_alignStart="@id/spiner"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        app:startIconTint="@color/red"
+        android:layout_marginStart="20dp"
+        app:startIconDrawable="@drawable/ic_baseline_height_24"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/height"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/height_tf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        app:startIconTint="@color/red"
+        app:startIconDrawable="@drawable/ic_weight24"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/weight"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/weight_tf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_image_24"
+                android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/image"
+            android:textSize="18dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_user"
+                android:layout_marginStart="80dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edittext_bg" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/gallery_pic"
+                android:layout_width="50dp"
+                android:src="@drawable/gallery_small"
+                android:tint="@color/black"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/transparent"
+                android:text="Gallery"
+                android:layout_height="50dp"/>
+            <ImageButton
+                android:id="@+id/take_pic"
+                android:layout_width="wrap_content"
+                android:text="take pic"
+                android:tint="@color/black"
+                android:background="@android:color/transparent"
+                android:src="@drawable/camera_small"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="@string/save"
+        android:background="@drawable/button_bg"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
+

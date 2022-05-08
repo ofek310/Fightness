@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Adam\'s Fitness</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="gender">
+        <item>@string/select_gender</item>
+        <item>@string/female</item>
+        <item>@string/Male</item>
+    </string-array>
+    <string-array name="name_workout">
+        <item>@string/select_workout</item>
+        <item>Hiit</item>
+        <item>ADAM-fit</item>
+        <item>@string/personal</item>
+        <item>@string/couple</item>
+    </string-array>
+    <string-array name="name_trainer">
+        <item>@string/select_trainer</item>
+        <item>@string/adam</item>
+    </string-array>
+    <string-array name="hours">
+        <item>@string/select_hour</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+    </string-array>
+    <string-array name="parti">
+        <item>@string/amount_participants</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="sub">
+        <item>@string/select_category</item>
+        <item>@string/group</item>
+        <item>@string/personal</item>
+    </string-array>
+    <string-array name="amount_trainings">
+        <item>@string/amount_trainings</item>
+        <item>8</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string name="title_activity_drawer_menu">title_activity_drawer_menu</string>
+    <string name="kg">kg</string>
+    <string name="signup_trainees">Signup Trainees</string>
+    <string name="package_renewal">Package Training Renewal</string>
+    <string name="trainings_menu">Trainings Menu:</string>
+    <string name="join">Join</string>
+    <string name="cancel">cancel</string>
+    <string name="wait">wait</string>
+    <string name="wating">waiting</string>
+    <string name="AmounTraining">Amount of training performed:</string>
+    <string name="of_of">of</string>
+    <string name="home">Home</string>
+    <string name="trainings">Trainings</string>
+    <string name="feed">Feed</string>
+    <string name="account">My Account</string>
+    <string name="history">Trainings History</string>
+    <string name="terms">Terms</string>
+    <string name="logout">Logout</string>
+    <string name="more_about">More about us</string>
+    <string name="aboutus">About Us</string>
+    <string name="add_post">Add Post</string>
+    <string name="notif">Notifications</string>
+    <string name="description">Description...</string>
+    <string name="post">Post</string>
+    <string name="source">Choose source</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Carmera</string>
+    <string name="liked">liked your post.</string>
+    <string name="likes">likes</string>
+    <string name="comments">comments</string>
+    <string name="viewall">View all</string>
+    <string name="addcomment">Add a comment...</string>
+    <string name="commented">commented:</string>
+    <string name="commentAdded">Comment added!</string>
+    <string name="upload">uploading...</string>
+    <string name="commentNot">Comment not added. Try again</string>
+    <string name="noLeftTraining">No training left in the package.</string>
+    <string name="no_left_pack">In order to join the training you will need to renew a training package.</string>
+    <string name="sure">Are you sure you want to delete?</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="space_waiting">A space became available in</string>
+    <string name="time">time</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phonenum">Phone Number</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Select your gender</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="image">Image</string>
+    <string name="save">SAVE</string>
+    <string name="password">Password</string>
+    <string name="forgotPass">Forgot password</string>
+    <string name="login">Login</string>
+    <string name="newTrainee">Register a new trainee</string>
+    <string name="admin">Admin account</string>
+    <string name="signup">Signup</string>
+    <string name="guest">guest login</string>
+    <string name="guest_txt">We\'ll be happy for you to log in and be impressed by our app. Waiting for you!</string>
+    <string name="select_gender">Select your gender</string>
+    <string name="female">Female</string>
+    <string name="Male">male</string>
+    <string name="select_workout">Select workout</string>
+    <string name="personal">Personal</string>
+    <string name="couple">Couple</string>
+    <string name="select_trainer">Select trainer</string>
+    <string name="adam">Adam Eli</string>
+    <string name="select_hour">Select hour</string>
+    <string name="amount_participants">Select amount of participants</string>
+    <string name="group">Group</string>
+    <string name="select_category">Select Category</string>
+    <string name="new_train">Add new training</string>
+    <string name="sure_logout">Are you sure you want to log out?</string>
+    <string name="set_profile">Set your profile</string>
+    <string name="wait_p">Please wait</string>
+    <string name="history_tarinings">History Trainings</string>
+    <string name="email_trainee">Email trainee</string>
+    <string name="price">Paid up</string>
+    <string name="amount_trainings">Amount trainings</string>
+    <string name="date">Date</string>
+    <string name="renewal">Renewal</string>
+    <string name="cant_post">No image added, post can\'t upload...</string>
+    <string name="tomorrow">Reminder: You have a workout tomorrow!</string>
+    <string name="commented_post">commented on your post:</string>
+    <string name="miss_info">Miss information. try again</string>
+    <string name="chack_mail">Check your email</string>
+    <string name="enter_mail">Enter your email</string>
+    <string name="login_succ">Login successful</string>
+    <string name="login_not">Login unsuccessful</string>
+    <string name="no_parti">No Participants yet.</string>
+    <string name="left_more">Left more trainings</string>
+    <string name="signup_succ">Sign up successful</string>
+    <string name="signup_not">Sign up unsuccessful</string>
+    <string name="change_save">your changes saved!</string>
+    <string name="training">"Workout: "</string>
+    <string name="trainerr">"trainer: "</string>
+    <string name="date_d">"Date: "</string>
+    <string name="hour_h">"Hour: "</string>
+    <string name="parti_list">"Participents List: "</string>
+    <string name="ok">OK</string>
+    <string name="training_deatils">Training Deatils</string>
+    <string name="reset">Reset Password</string>
+    <string name="loading">Loading...</string>
+    <string name="anonymus_mode">You are a guest in this application, for more actions sign up :)</string>
+</resources>
